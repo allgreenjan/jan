@@ -1,0 +1,45 @@
+; MEMO FORMAT：
+; PostName<>Date<>Time<>
+; PostContent
+; <>
+
+=begin
+QUOTE BOX TEMPLATE:
+<table border="1" cellpadding="5" cellspacing="0" bordercolor="#999999" bgcolor="#EAEEEE" align="center" style="margin:10px 40px;">
+<tr><td style="font:11px verdana;color:#666666;line-height:1.1em;letter-spacing:0.1em;">
+09:42 &lt;***&gt; Hey, it's me, Hiroya Mahiro! <br>
+09:44 &gt;Kai&lt; Very girly! <br>
+09:45 &lt;JEM&gt; Sounds like a voice actor (lol) <br>
+09:45 &gt;Kai&lt; Hiroya Mahiro <br>
+09:46 &lt;**&gt; That's it <br>
+09:46 &lt;**&gt; She's a short voice actress with short hair.
+</td></tr></table>
+=end
+
+BLOGS & Lasik : They have a lot more in common than you may think<>2026-06-15<>23:56<>
+Now all I can end up wondering is: what in the fuck am I making a static blog for? Wasn't I supposed to be translating manga?
+
+I actually quite love and enjoy the process. So what am I twiddling around making a blog for? I really can't answer any of these questions. I don't think I have any sort of appropriate answer.
+
+My face is flushed red from embarrassment even. Believe me.
+
+
+All jokes aside, I suppose the reason is that simple blogs like these really can have an unique charm I've always liked.
+
+One time, I went on a really old (maybe 15 years old?) Japanese website, and it had a very long diary spanning years of a guy's journey and experiences with his Lasik surgery. I had been thinking of getting Lasik (although, I opted for contacts now), and it was a very interesting read despite how old it was.
+He updated it for years and years. Not only after a couple days, weeks or months. Which is really what made it stand out.
+
+Yeah... good luck finding that sort of consistency anywhere on the modern web!
+
+I only perused his site, cause I wanted to send an email for the source code of an old software of his. I did do that, but apparently he couldn't share because it was now under some company.
+
+>SAIKOUDOGG様
+>
+>お返事が大変遅くなり申し訳ございません。　, he says.
+
+...Why did I put that as my name anyway?
+
+"Would you really trust 'SAIKOUDOGG' with your manga?" Make that a PSA!
+
+<small>They don't have anything in common, if you were wondering.</small>
+<>
