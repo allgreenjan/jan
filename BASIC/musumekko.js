@@ -1,4 +1,4 @@
-var PPG = 4; // posts per page
+var PPG = 3; // posts per page
 
 function blog_strip(txt) {
     // cm: ; lines, =begin...=end blocks

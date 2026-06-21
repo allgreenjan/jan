@@ -1,3 +1,6 @@
 ; FORMAT: Name<>Status<>Link<>
-Ping Pong Club ch.156 & ch.157<>[In Progress]<>[ <a href="https://mangadex.org/title/b7e5b450-94ee-4060-9e7e-3e0785707000/go-ina-junior-high-ping-pong-club" target="_blank">Open</a> ]<>
-Washizu: Enma no Touhai ch.18 & ch.19<>[Planned]<>[ <a href="https://mangadex.org/title/01e6296c-9c0f-4329-8854-036aec11595b/washizu-enma-s-mahjong" target="_blank">Open</a> ]<>
+; Ping Pong Club ch.156 & ch.157<>[In Progress]<>[ <a href="https://mangadex.org/title/b7e5b450-94ee-4060-9e7e-3e0785707000/go-ina-junior-high-ping-pong-club" target="_blank">Open</a> ]<>
+Washizu: Enma no Touhai ch.18<>[FINISHED]<>[ <a href="https://mangadex.org/title/01e6296c-9c0f-4329-8854-036aec11595b/washizu-enma-s-mahjong" target="_blank">Open</a> ]<>
+Washizu: Enma no Touhai ch.19<>[FINISHED]<>[ <a href="https://mangadex.org/title/01e6296c-9c0f-4329-8854-036aec11595b/washizu-enma-s-mahjong" target="_blank">Open</a> ]<>
+Washizu: Enma no Touhai Vol.4<>[Planned]<>[ <a href="https://mangadex.org/title/01e6296c-9c0f-4329-8854-036aec11595b/washizu-enma-s-mahjong" target="_blank">Open</a> ]<>
+Dai Ni Enshutsu-bu Director Za Gama Vol.1<>[Planned]<>[ <a href="https://mangadex.org/title/1201cf13-7a18-4afa-832c-5dd444e3f4b6/director-of-the-second-production-department-the-gama" target="_blank">Open</a> ]<>

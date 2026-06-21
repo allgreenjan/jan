@@ -5,18 +5,41 @@
 
 =begin
 QUOTE BOX TEMPLATE:
-<table border="1" cellpadding="5" cellspacing="0" bordercolor="#999999" bgcolor="#EAEEEE" align="center" style="margin:10px 40px;">
-<tr><td style="font:11px verdana;color:#666666;line-height:1.1em;letter-spacing:0.1em;">
-09:42 &lt;***&gt; Hey, it's me, Hiroya Mahiro! <br>
-09:44 &gt;Kai&lt; Very girly! <br>
-09:45 &lt;JEM&gt; Sounds like a voice actor (lol) <br>
-09:45 &gt;Kai&lt; Hiroya Mahiro <br>
-09:46 &lt;**&gt; That's it <br>
-09:46 &lt;**&gt; She's a short voice actress with short hair.
-</td></tr></table>
+<details style="box-sizing: border-box; width: 100%; background-color: #EAEEEE; border: 1px solid #999999; font: 10px verdana; color: #666666; line-height: 1em; letter-spacing: 0.1em; margin: 10px 0 -10px; text-align:left;"><summary style="padding: 2px 5px; cursor: pointer;">Chat Log</summary><div style="padding: 5px; margin: 0;">
+  09:42 &lt;***&gt; Hey, it's me, Hiroya Mahiro! <br>
+  09:44 &gt;Kai&lt; Very girly! <br>
+  09:45 &lt;JEM&gt; Sounds like a voice actor (lol) <br>
+  09:45 &gt;Kai&lt; Hiroya Mahiro <br>
+  09:46 &lt;**&gt; That's it <br>
+  09:46 &lt;**&gt; She's a short voice actress with short hair.
+
+  </div></details>
 =end
 
-BLOGS & Lasik : They have a lot more in common than you may think<>2026-06-15<>23:56<>
+=begin
+[0] BORN<>2026-xx-xx<>xx:xx<>
+The narcissistic kind of blog that only talks about oneself. It has become extremely common on the nu-web.
+I can't help but want to do it a bit too...
+
+<small>If you're lucky, you might hear one thing or two about manga.</small>
+
+
+<center>[発][発][発][発] PROFILE [発][発][発][発]</center>
+My name is Christopher. I'm no one special.
+I speak English and am all right at reading Japanese.
+I'm also learning Russian now (for the past 3 days of writing this... lol). I don't care enough about my native language to tell you about it (and if I didn't have to speak to a single person using it ever... yes, that would be bliss!).
+
+I mean, EN/RU/JP, wouldn't that be cool for a bio?
+
+I don't want to do anything but translate manga and write a couple of shitty ramblings and stanzas. I don't need help for any of that stuff.
+
+We won't have anything in common no matter how hard you look for something, so writing a profile is as good as useless.
+
+I've been listening to LIBERTY by the pillows recently. <b>♪</b>
+<>
+=end
+
+[1] BLOGS & Lasik : They have a lot more in common than you may think<>2026-06-15<>23:56<>
 Now all I can end up wondering is: what in the fuck am I making a static blog for? Wasn't I supposed to be translating manga?
 
 I actually quite love and enjoy the process. So what am I twiddling around making a blog for? I really can't answer any of these questions. I don't think I have any sort of appropriate answer.
@@ -42,4 +65,941 @@ I only perused his site, cause I wanted to send an email for the source code of 
 "Would you really trust 'SAIKOUDOGG' with your manga?" Make that a PSA!
 
 <small>They don't have anything in common, if you were wondering.</small>
+<>
+
+[2] It's okay to be gay.<>2026-06-16<>20:35<>
+Recently, I've had to pull out all the stops all to get an annoying person to stop texting me. The best way to do it is to look absolutely utterly clinically insane. Too much to ignore even.
+
+A BIIIG wall of text.
+
+It works best if you blocked them before sending it days prior, unblocked them to send it after waking up at 3 in the morning and having the brilliant idea of the text, and then blocking them again.
+
+(I was worried someone who would triple text after getting ignored... wouldn't be deterred just by blocking)
+
+I stayed around an hour writing whatever bullshit came first into my head. Some of it was actually pretty real, but overall, just a very annoying tone. I still can't help but laugh while reading it, or just thinking it.
+
+On the other hand, I'm sure they don't even think about it anymore. That'd be fine by me.
+
+Such great lines as:
+
+>this is so fucking annoying and lame and kinda gay but [...] it's like almost compulsive (and gay)
+
+and
+
+>that me [...] is like my retarded down syndrome little brother, so i felt a lot of pity [...] for him
+
+(My only worry was they would see a random 3am wall of text and think that I had killed myself).
+
+Is 2000 characters a lot? My notes say that number. It's too big I feel. I would have loved to see their reaction (><)... I thought of saying I would block after (which I did at the end) and then actually not blocking just to see what they would say the moment they saw it before reading it.
+
+Too much trouble, eh? I slept like a baby since, so I think it was for the best.
+
+I hope anyone who reads this tries it out on at least one person. It feels like a whole resort of fun.
+<>
+
+[3] If You Have To Tell A Lie To Protect Your Peace, Make Sure It Involves Maple Syrup.<>2026-06-17<>21:21<>
+Have you ever lied on the internet?
+
+I'm not sure (nor do I specifically care) about you, but I sure have.
+
+It seems that throughout the years, the idea of lying on the internet has became surprisingly radioactive. I had even came to feel GUILTY over it! But, then I pondered, why should I?
+
+And one might, ask: Why shouldn't you? ...Well, because...
+
+<center><b>THE INTERNET
+ISN'T REAL!</b></center>
+It's been since August last year that I have slowly introduced the idea to my own self that LYING is EVIL! On the internet!? What's the big goddamn deal? Isn't it harmless fun!?
+
+So what if I lie about small facts of life and nationality?! I just don't get it.
+
+The funnest part of meeting people online is having the lies ready for the identity questions. People sure love to know who you are but I find it meaningless!
+I think I'll be Canadian this time.
+Of course it's always possible I won't even need it! But I'll do what I want.
+
+There's not even any need for continuity! I'm Canadian, and I'm slow. so if people ask me questions, oh I just don't know! (and I really AM slow, it all works out!)
+
+People nowadays on the web can be so petty if you don't give out details or claim OPSEC! It's so annoying!
+
+I really think a small nationality lie is fine. 
+
+Anything more like a "province" I can say: well, now that's just too much! Which is better than the entire country being ommited which people become stingy about nowadays (hence, the lie).
+
+If people ask cultural questions one can act generally unknowledgeable (frankly, I wouldn't be able to reply about cultural questions regarding my own country). If they ask about maple syrup I could just say: yeah pretty much, we like it. Just like if someone asked me about [OMMITED] AND [CENSORED] in [NONE OF YOUR GODDAMN BUSINESS]. "yeah pretty much, we like it!".
+
+It's just so it is less annoying. I'm sad about it too. But it's not hard to maintain.
+I'd love to just withhold like I did on game servers years ago. But it's not really possible anymore, people have became newfaggy and forgotten the manners of the web. I could cry! ( ; ; )
+
+What was that? You want me to tell just one truth?
+Fine.
+I'll tell you! It's 100% true.
+
+I'm  Canadian. I wouldn't lie about my country y'know!
+<>
+
+[3.1] Suicide at the Far East Mountain [POEM]<>2026-06-15<>22:28<>
+<pm style="display:block;margin-left:50px;">
+The Far East mountain.
+It's always freezing
+and the brochure said the view was spectacular.
+To die for.
+
+He removed
+his hiking boots.
+Dirty, filthy things.
+
+He stepped into the drift.
+Bare skin
+on the cool ice.
+It's funny,
+isn't it?
+
+Even as the frost
+bit into his bones,
+he never once got
+cold feet.
+
+He fell.
+I watched
+from my room.
+
+The mountain
+didn't move.
+
+Neither
+could
+I.
+</pm>
+<span id="sig" style="margin-top:0;">-- Christopher</span>
+<>
+
+[4] If you see a Normal Person with your tastes, lock your doors and turn off your router. They've gotten better at Being You.<>2026-06-xx<>xx:xx<>
+
+Sometimes it's easy to forget that you do also enjoy popular things, and your stomach might turn when you see a normie enjoying them despite that.
+
+<i>"Can you really understand what you are seeing?"</i>, sometimes you may find the answer to this rhetorical question over the normiebo is a certain "No."
+Sometimes it may seem "Yes," but it is actually a "No."
+And if it's a "Yes," then perhaps you just haven't found what makes it a "No" yet...
+
+I don't say it out of snobbery. Although, it may sound like it. I would truly, truly from the bottom of my heart, and more than anyone in this world, want to be able to say "Yes," to see that true understanding.
+
+I have yet to. I have yet to ever look at a normie, recognise it as one and not be proven wrong in my conviction.
+
+I would do anything, anything in this whole wide world, just to get away from all these normies. They surround you from all sides. You might think you finally got away from them, and then one will find a way to you in the most obscure possible 0.001 percenter of a possible way.
+
+They hide. They've gotten better at hiding as more of them exist.
+You want them to not be normies. You feel a burning betrayal in your heart to share moments and find out about normality. They will vomit all over your memories.
+
+Normality. As if I want any of it. Blow it all away!
+
+Some would be quick to call me an extremist. They would realise their fathers, their mothers, their friends, their confidants, can be normies and still be "respected". If you happen to share that opinion. I would much rather you'd also drop dead. <b>You are a normie.</b>
+
+You can try to cut yourself off from them; declare yourself abnormal. It won't come true.
+
+A world full of fake pretend losers. They might not be the normies of the utmost circle, but even in a slightly deeper cut circle, they are still at the edge of it's circumference, or close to it. They will still have peers.
+
+I disdain you and your social spheres.
+
+I will be at the centre of the circles for as long as I live. No matter how many circles you go down I'll never be at the edge of a circle. Too weird for normals, and too weird for even weirdoes.
+
+Someone without a peer group at any level.
+Alien even among aliens.
+
+You will come to find that normies have perfected being you. They have perfected your weirdness in it's most acceptable assets, and they have far surpassed the act of being you. They have your symptopms but not your disease, thus they are better than you. <i>You have become meaningless.</i>
+
+...you may also find that acid reflux can hit hard when thinking things such as this. It's best to stop at som e poi nt. A shirt can sometimes be worse to clean than any memory.
+<>
+
+[4.1] Last Night where you might have been able to see the Moon [POEM]<>2026-06-15<>01:46<>
+<pm style="display:block;margin-left:50px;">
+The guy,
+whoever he
+was,
+sat dejected
+on the bench.
+
+He sat
+and
+sat.
+
+Shoulders
+slumped.
+
+Waiting
+for a
+shooting
+star,
+or a
+text,
+or some
+other
+romantic
+bullshit
+to save
+him.
+
+The moon
+was
+immense.
+The sky was
+a perfect,
+unforgiving
+dark.
+
+With that
+up
+there,
+no one's
+getting saved
+anytime
+soon.
+
+He probably
+cried
+a little.
+
+I was
+picking
+my nose.
+
+So I
+didn't see.
+</pm>
+<span id="sig" style="margin-top:0;">-- Christopher</span>
+<>
+
+[5] WASHIZU CH.18<>2026-06-17<>22:30<>
+Finally I finish my first MONUMENTAL chapter: <b>Washizu ch.18</b>
+
+46 pages of headaches and annoyances later. Some of these pages can be hell to clean.
+
+<img src="../cg/gbook/hell1.jpg" style="width:100%">
+<img src="../cg/gbook/hell2.jpg" style="width:100%">
+
+But the feeling of finishing a chapter. It is true... bliss!!
+
+I might be the only person in the world who truly loves and hates scanlation like this (not true, I hope). I can't help but sit in class or lie in bed, and end up thinking: "I want to do more pages!"
+
+I end up feeling my heart burn like I'm thinking of a crush, I want to go home and <del>text my crush</del> <b>CLEAN PAGES</b>!!
+
+It's only going up when I finish the next chapter. Then volume 3 can be finished all at once.
+
+I also decided to post the credits pages on the blog, along with a link to the chapter itself from now on.
+
+=-=-=-=-=-=-=-=-=-=-=-=
+
+>I wish I could tell you why anyone translated only random chapters after ch.17!
+
+>I wish I could!
+
+<img src="../cg/gbook/pan2.jpg" style="width:49%"> <img src="../cg/gbook/pan1.jpg" style="width:49%">
+
+>This got covered by the TL! And it doesn't actually look like you could really imagine behind it but... I wanted to show-off!
+
+> (link soon)
+
+<b><i>RYUUIISOU SCANLATIONS</i></b>
+<small>translated/cleaned/typeset by 1 (one) guy</small>
+<>
+
+[6] Don't eat a Pizza-sized Box, unless your metabolism is in tip-top shape<>2026-06-17<>00:49<>
+I could fall over right now and die. From how much chicken I just ate from a pizza-sized box of chicken.
+It's a lot of chicken. If you were wondering.
+
+Good for me, I'll still be around 50 kilos tomorrow.
+Not everyone is so lucky.
+
+Maybe they are. They don't have to scanlate 30+ pages after it.
+<>
+
+[6.1] Too much to ask for [POEM]<>2026-06-xx<>xx:xx<>
+<pm style="display:block;margin-left:50px;">
+Twenty minutes.
+That's all
+he asked for.
+
+Just
+twenty.
+
+The other fellow,
+turned purple.
+A real,
+ugly shade.
+He started
+yelling.
+Loud.
+
+Barking about
+this and
+that.
+The fragile
+economy,
+maybe.
+
+He didn't
+hear,
+it could've
+been
+anything.
+
+His eyelids
+weighed
+fifty pounds
+each.
+
+A soft,
+steady
+snore
+rattled in his throat.
+
+The fellow
+kept screaming.
+Louder, now.
+Waving his arms.
+
+But the guy
+was already
+gone.
+
+He'd get his
+twenty.
+
+Maybe
+thirty.
+</pm>
+<span id="sig" style="margin-top:0;">-- Christopher</span>
+<>
+
+[7] Poetry<>2026-06-18<>1:01<>
+I've been writing too much of it lately. None of it is even any good.
+
+Soon enough this site will be all poems. For every 5-10 poems, you might get a chapter release.
+
+...That's actually not a bad schedule...
+
+...for just 1 (one) guy...
+<>
+
+[7.1] I sit on the third roll [POEM]<>2026-06-17<>03:27<>
+<pm style="display:block;margin-left:50px;">
+"I sit
+on the
+third roll."
+
+That's
+what
+you said.
+
+A cute
+mistake.
+Row.
+You meant
+row.
+
+I could have
+listened
+to a
+thousand
+more
+of those.
+
+But
+by then,
+you were
+already
+dead.
+
+Sorry.
+
+For dragging
+your
+corpse
+around.
+
+Or
+maybe
+for letting
+you
+drag
+mine.
+
+You refused
+to
+let go.
+
+I don't think
+it was
+grief.
+I think
+you just
+liked
+the weight
+of it.
+
+Which is
+fine,
+I guess.
+
+I've
+never been
+too
+heavy.
+</pm>
+<span id="sig" style="margin-top:0;">-- Christopher</span>
+<>
+
+[7.2] Just a speck different [POEM]<>2026-06-17<>02:15<>
+<pm style="display:block;margin-left:50px;">
+I stood
+in front of
+my father.
+
+I wore
+a long
+brown coat.
+Down to
+my feet.
+
+A worn out
+stain.
+Red,
+or maybe
+brownish.
+Around the
+cuff.
+
+"My son,"
+he said.
+"He's dead?"
+
+"Yes."
+
+The silence
+was
+deafening.
+
+"I know,"
+I said.
+"Because
+I killed
+him."
+
+I could have
+explained
+more.
+I could have
+told him
+it was
+an accident.
+Or a mercy.
+Or a
+long time
+coming.
+
+But I
+just
+turned
+around.
+
+He couldn't
+recognize
+me
+anymore
+anyway.
+</pm>
+<span id="sig" style="margin-top:0;">-- Christopher</span>
+<>
+
+[7.3] Tough Luck [POEM]<>2026-06-17<>03:54<>
+<pm style="display:block;margin-left:50px;">
+The blood
+spilled.
+It trickled
+down.
+Pitter-patter.
+Pitter-patter.
+On top of
+the electronic
+mahjong table.
+
+"It's a
+haneman tsumo."
+the man
+to his right
+said.
+Mouth agape.
+
+He was
+flipping
+his own
+tiles
+after.
+Shocked,
+out of habit.
+Checking for
+tenpai.
+Like it
+mattered.
+
+The busted
+gun
+lay on
+the floor.
+Smoking.
+
+He'd made
+a comeback.
+The win
+of a
+lifetime.
+But we
+couldn't have
+expected
+it.
+
+So we'd
+already
+shot him.
+Right as
+his fingers
+touched
+the wall.
+</pm>
+<span id="sig" style="margin-top:0;">-- Christopher</span>
+<>
+
+[8] Accept your fate!<>2026-06-xx<>xx:xx<>
+
+We're all poems now.
+
+Unless I have a really complex thought. Or something I really want to talk about (rare). Then I might just do all poems. If you see an image, then it's a chapter. Or an update on it, if it's taking too long. (not that anyone's here anyway).
+
+I find that the pacing of a proper poem (not anything like mine) can be really similar to the pacing of any sort of manga narration, or dialogue. Maybe there's a connection there on why I like both quite a lot.
+
+(maybe that's not true, I just felt it was. you can disagree).
+
+But my poetry sucks. Suck balls and sucks ass.
+
+I'm really only a Bukowski and Jack Gilbert fan s'all.
+
+Too much Bukowski even. I need to experiment more with my longer prose. But the short line ones are really fun.
+
+Chapter soon... soon... soon...
+<>
+
+[8.1] When You Forget Your Native Language, You'll Only be Able to Use it to Talk About Penises and Masturbation [POEM]<>2026-06-18<>16:18<>
+<pm style="display:block;margin-left:50px;">
+It is a really
+beautiful language,
+but really
+I have no interest in it.
+I have never seen
+an internet so boring
+and so vile.
+
+I could not find
+a single worthy
+or unique opinion.
+All trash.
+Everywhere.
+In every corner
+and by every person.
+It has been a decade
+since I've read anything
+in this native language of mine.
+
+It is far too warm,
+and at the end of the day,
+everyone talks like a normie.
+
+How am I meant
+to love this country
+when all it has
+ever done
+is haunt me?
+Everything I've ever loved
+has come from outside it.
+
+When you lean on
+that disgust
+too much,
+you end up
+talking only about penises
+or homosexual rape
+when you're with friends.
+At least it
+gives them a laugh.
+Deep down
+I don't find it
+very funny.
+
+I might not be free
+of it anytime soon
+unless I die.
+
+I hope
+they can at least
+write on my grave
+in English:
+
+Here lies...
+some sort of weird fag,
+for all to see.
+</pm>
+<span id="sig" style="margin-top:0;">-- Christopher</span>
+<>
+
+[8.2] ANNOUNCEMENT FROM THE BOARD OF TRUSTEES: FLAT IS JUSTICE! [POEM]<>2026-06-18<>19:21<>
+<pm style="display:block;margin-left:50px; width:75%;">
+<b>LISTEN UP, YOU DEGENERATES AND TRUE PERVERTED SCHOLARS OF BODILY FORM!</b>
+The Flat Chest Lovers Society is officially OPEN for new recruitment!
+We are a Secret Perv Society, yes! You heard that right! Say it loud! Say it with pride!
+Throw your shame into the nearest garbage bin and look toward that fateful horizon! (known as perversion... or maybe the flat chests... themselves...)
+
+Do you understand the majesty of that perfectly straight line?
+Some men are weak! They crave the soft, bloated monstrosities of the heavy-chested!
+But they are blind to the aerodynamics of the pure heart!
+They are weighed down by the unnecessary mass of the common world!
+
+WE DISDAIN THAT JIGGLE! WE DENY THAT BOUNCE!
+There is no truth in a curve that seeks to hide the menacing ribcage!
+A true man of culture finds his home in that beautiful flat surface!
+A landscape of absolute, unchanging perfection!
+The clothes hang on it like a holy shroud, unblemished by the swell of sin!
+
+Join us in our bunker at 123 Boulevard St.!
+Bring your 1:7 scale figures! Bring your unwavering resolve!
+Bring a ruler, because we value precision in all our aesthetic evaluations!
+We are the enlightened few! We are flat enthusiasts!
+WE ARE THE MEN WHO RECOGNIZE THAT TRUE BEAUTY DOES NOT NEED TO BE HELD UP BY BRA-STRAPS!
+
+<b>GLORY TO THE FLAT! GLORY TO THE F.C.L.S.!</b>
+<i>SIGNED, THE SUPREME CHAIRMAN OF THE HENTAI GENTLEMEN LEAGUE.</i>
+<small>(Meeting adjourns at 3 AM. No girls allowed! Especially not big ones!)</small>
+</pm>
+<span id="sig" style="margin-top:0;">-- F.C.L.S.</span>
+<>
+
+[8.3] Normal is a Silver Medal. I'd rather not have it. [POEM]<>2026-06-xx<>xx:xx<>
+<pm style="display:block;margin-left:50px;">
+It creeps
+on you.
+Unexpectedly.
+Before you,
+or anyone else,
+can ever
+notice it.
+
+Once you become
+"alone."
+Once you cross
+the line into
+abnormal.
+
+You can never
+be around
+others.
+Around your
+past peers.
+Not ever
+again.
+
+Are you ready
+for that
+ending?
+
+Even your parents
+will become
+embarrassed of you.
+Eventually.
+
+You will die
+alone.
+In a ditch,
+or a sterile
+hospital bed.
+If you're
+lucky.
+
+I don't think
+you are.
+Ready, I mean.
+You can't be.
+You don't have
+what it takes.
+
+I know this.
+Because when you
+read my question,
+you answered it.
+You didn't just
+accept it.
+
+It might have been
+just for
+a second.
+
+But you looked
+deep into
+yourself,
+and you saw a
+sliver
+of normal.
+
+Something you
+didn't want
+to abandon.
+
+Even if it's
+something as
+small
+as the
+clinging.
+That pathetic,
+quiet
+yearning.
+
+For normality.
+</pm>
+<span id="sig" style="margin-top:0;">-- Christopher</span>
+<>
+
+[9] WASHIZU CH.19<>2026-06-21<>00:33<>
+<br><center><big><b>WASHIZU CHAPTER 19!!!</b></big></center>
+
+<img src="../cg/gbook/WASHIZU3.jpg" style="width:100%">
+
+Wow! 5 years of waiting for a single finished volume. Rest assured, dear readers, you won't ever have to wait EVER AGAIN!
+
+jk
+
+I kinda want to scanlate another manga for a bit... Don't sweat it... it's just two volumes...
+
+<img src="../cg/gbook/GAMA1.jpg" style="width:49%"> <img src="../cg/gbook/GAMA2.jpg" style="width:49%">
+
+AND
+I'M
+A
+<b>FREE
+MAN!!!</b>
+
+=-=-=-=-=-=-=-=-=-=-=-= 
+
+>With that, we finish Volume 3.
+
+>If anyone has better raws for Volume 4.
+>Send me a message on dc: lainposer
+>or email me: liberty@cocaine.ninja
+>or anything, idrc how you find me, just do it.
+
+　　　<img src="../cg/gbook/fugly.jpg" style="width:49%">　　>It's pretty fugly...
+
+> (link soon WHEN MANGADEX ACCEPTS IT)
+
+<b><i>RYUUIISOU SCANLATIONS</i></b>
+<small>translated/cleaned/typeset by 1 (one) guy</small>
+<>
+
+[9.1] My Soul [POEM]<>2026-06-xx<>xx:xx<>
+<pm style="display:block;margin-left:50px;">
+My soul is silver,
+but my balls are golden.
+
+That's the
+current read.
+Gintama, for the uninitiated.
+
+I knock out one series
+every week or so.
+Of non-stop
+reading.
+
+155 chapters I've enjoyed.
+553 left to go.
+
+Maybe.
+
+Those total counts
+are never
+right.
+That's piracy
+for ya.
+The numbers
+always
+lie.
+
+　　Days: 91.0
+　　Mean Score: 6.68
+　　Completed: 99
+　　Chapters: 15,455
+　　Volumes: 1,493
+
+That's my sheet.
+
+I haven't bought
+a single
+one.
+
+Personally?
+I think I've got
+too little.
+
+Even with
+fifteen thousand
+chapters,
+I still wouldn't
+trust this guy
+with my
+manga.
+
+Or translation
+of any
+kind.
+</pm>
+<span id="sig" style="margin-top:0;">-- Christopher</span>
+<>
+
+[10] Computer Lovers Should Treat Their Computer Better. It Wouldn't Save What You Save, Had It Known...<>2026-06-21<>xx:xx<>
+
+I still have so many weird things on my computer. So many weird things I've saved. It's best that no one can see it. (except for maybe Microsoft)
+
+Whenever people send me pictures, I always save them. I'm not sure why. I have a folder full. There's a lot of desks, and setups. Girls are always liars, inconspicuous about their compliment fishing. Guys are the same, but only if they think you're a girl. I should have lied to the last one that did, I could have manipulated him, I think.
+Everyone's the same kind of gross.
+The rest is things I actually like, from people I actually liked talking to.
+
+But I delete the penises, even I'm not that dirty. I don't get why anyone would send those sorts of pics. They're all brown tips, if you were wondering. Mine is a pretty pink. (lol)
+
+It used to be that you were certainly a guy if you were using an anime girl as a profile picture. Now, people ask, as if it's confusing! Of course I'm a guy! Why would you think otherwise!?
+It happened to me thrice this year. People I'd rather not talk to. Certain normies.
+Thrice, of course, not counting the two people that thought I was a girl and sent me their penises.
+
+I also save messages. If I talk to someone for a long time. Tonight I was cleaning some of the more useless ones. Or ones I've forgotten or want to forget.
+
+<details style="box-sizing: border-box; width: 100%; background-color: #EAEEEE; border: 1px solid #999999; font: 10px verdana; color: #666666; line-height: 1em; letter-spacing: 0.1em; margin: 10px 0 -10px; text-align:left;"><summary style="padding: 2px 5px; cursor: pointer;">Chat Log</summary><div style="padding: 5px; margin: 0;">
+>[2026-05-17 01:05] &lt;gnom&gt; when i was a kid i used to hit my head a lot so maybe that has something to do with it
+>[2026-05-17 01:05] &lt;gnom&gt; like fall over and hit my head
+
+>[2026-05-17 01:06] &lt;deleted_user&gt; wait what
+>[2026-05-17 01:06] &lt;deleted_user&gt; like on purpose or accidentally
+
+>[2026-05-17 01:07] &lt;gnom&gt; accidentally
+>[2026-05-17 01:07] &lt;gnom&gt; simply bad at balancing myself i guess
+>[2026-05-17 01:07] &lt;gnom&gt; if i was on any kind of weird uneven place
+
+>[2026-05-17 01:07] &lt;deleted_user&gt; WTF
+>[2026-05-17 01:07] &lt;deleted_user&gt; so like did it affect ur development or what
+
+>[2026-05-17 01:08] &lt;gnom&gt; well
+>[2026-05-17 01:08] &lt;gnom&gt; id like to think not
+>[2026-05-17 01:08] &lt;gnom&gt; but
+>[2026-05-17 01:08] &lt;gnom&gt; maybe
+</div></details>
+It did. It did.
+
+<details style="box-sizing: border-box; width: 100%; background-color: #EAEEEE; border: 1px solid #999999; font: 10px verdana; color: #666666; line-height: 1em; letter-spacing: 0.1em; margin: 10px 0 -10px; text-align:left;"><summary style="padding: 2px 5px; cursor: pointer;">Chat Log</summary><div style="padding: 5px; margin: 0;">
+>[2026-05-18 01:09] &lt;brody&gt; that's old
+>[2026-05-18 01:09] &lt;brody&gt; I like that video because I hear my ex's voice
+
+>[2026-05-18 01:11] &lt;gnom&gt; why did you two break up
+>[2026-05-18 01:11] &lt;gnom&gt; if i had voice recordings of my ex id kill myself so ur doing great
+
+>[2026-05-18 01:14] &lt;brody&gt; I did not good stuff to him
+>[2026-05-18 01:14] &lt;brody&gt; I have pictures of him still saved
+>[2026-05-18 01:14] &lt;brody&gt; I'm a warrior dude
+>[2026-05-18 01:14] &lt;brody&gt; god
+
+>[2026-05-18 01:17] &lt;gnom&gt; you are bro
+
+>[2026-05-18 01:18] &lt;brody&gt; thank you
+>[2026-05-18 01:18] &lt;brody&gt; it's been 6 months
+>[2026-05-18 01:18] &lt;brody&gt; I'm not yet over him
+
+>[2026-05-18 01:19] &lt;gnom&gt; np
+>[2026-05-18 01:19] &lt;gnom&gt; takes time
+
+>[2026-05-18 01:22] &lt;brody&gt; I am on a walk
+>[2026-05-18 01:22] &lt;brody&gt; I'm trying to clear my head
+
+>[2026-05-18 01:22] &lt;gnom&gt; that's good
+>[2026-05-18 01:22] &lt;gnom&gt; i love walking
+>[2026-05-18 01:22] &lt;gnom&gt; it does help
+
+>[2026-05-18 01:23] &lt;brody&gt; not really
+>[2026-05-18 01:23] &lt;brody&gt; makes me think of him more
+
+>[2026-05-18 01:24] &lt;gnom&gt; fair enough
+>[2026-05-18 01:24] &lt;gnom&gt; depends on the mindset
+
+>[2026-05-18 01:25] &lt;gnom&gt; id tell you not to focus on it but that's kind of impossible lol i know how it is
+
+>[2026-05-18 01:25] &lt;brody&gt; yea ur tight
+>[2026-05-18 01:25] &lt;brody&gt; right
+
+>[2026-05-18 01:25] &lt;gnom&gt; tight
+</div></details>
+I've never even had a girlfriend! What the hell am I talking about!? LOL
+
+<details style="box-sizing: border-box; width: 100%; background-color: #EAEEEE; border: 1px solid #999999; font: 10px verdana; color: #666666; line-height: 1em; letter-spacing: 0.1em; margin: 10px 0 -10px; text-align:left;"><summary style="padding: 2px 5px; cursor: pointer;">Chat Log</summary><div style="padding: 5px; margin: 0;">
+>[2026-02-09 22:27] &lt;deleted_user&gt; i am by your side
+>[2026-02-09 22:27] &lt;deleted_user&gt; forever twin
+
+>[2026-02-09 22:27] &lt;gnom&gt; its true
+
+>[2026-02-09 22:27] &lt;deleted_user&gt; until you block me
+>[2026-02-09 22:27] &lt;deleted_user&gt; again...
+
+>[2026-02-09 22:27] &lt;gnom&gt; i will not
+
+>[2026-02-09 22:27] &lt;deleted_user&gt; i am sure you wilk
+>[2026-02-09 22:27] &lt;deleted_user&gt; youll be like
+>[2026-02-09 22:27] &lt;deleted_user&gt; No i fucking ruined my opsec
+
+>[2026-02-09 22:28] &lt;gnom&gt; LOL
+
+>[2026-02-09 22:28] &lt;deleted_user&gt; Im gonna fucking block this fucking foid
+  </div></details>
+...It does sound like something I'd do.
+They
+weren't
+wrong...
+
+
+I wonder if these logs make me look like the very social, crazy internet people meeting kind of guy, that's always got something going on. It's definitely not the case.
+I wouldn't talk to anybody, if it was up to me. It's these people that keep coming in droves. Pestering me. Annoying me!
+Most of the time. lol
+...
+
+Japanese websites comprise the other weirdness of my hard drive. If you know what you're doing (me), you can get all their images in bulk. I tend to get the ones from around 2001-2007.
+After that they blend too much with 2011, which is pretty much 2015, which is pretty much 2017... which... yeah. Something like that, surely.
+
+For every 200 pornographic images, you may get one cool picture of a cat or otherwise.
+
+<center><img src="../cg/gbook/webjp/pr0n.jpg" style="width:100%"></center><small>(I'm sure Github is fine with flesh colored squares...)</small>
+
+Sift, and sift...
+
+<center><img src="../cg/gbook/webjp/aup124.jpg" style="width:100%"></center>
+ふ～ん God... he's so cool～! 
+
+Or... random security camera videos...
+
+<center><img src="../cg/gbook/webjp/z.jpg" style="width:49%"></center>
+
+Or, pictures of naked drunk guys from a party, all of which now must have families, their holes still burned in my mind. That ZIP file that now won't be seen by anyone for a long long time.  Like a pebble thrown into the deep deep ocean.
+
+
+<center>[NO! THERE'S NO IMAGE OF IT]</center>
+
+Or, wallpapers. My favourite. I have 2206 wallpapers in my folder. Not all are usable, especially with an open door behind you. But I love them all equally.
+
+<center><img src="../cg/gbook/webjp/sityaku.jpg" style="width:100%"></center>
+
+<center><img src="../cg/gbook/webjp/termcity2_l.jpg" style="width:100%"></center>
+
+<center><img src="../cg/gbook/webjp/wallpaper02_1024.jpg" style="width:100%"></center>
+I'm not very good at organising any of these multitude of images. So sometimes I... don't. Scrolling is way more fun anyway. You can find random ones pretty easily.
+It's just nice to look at them sometimes... cathartic even...
+
+
+
+Man... I just can't forget... those ugly... holes... eugh...
 <>
