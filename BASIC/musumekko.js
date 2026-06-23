@@ -1,4 +1,4 @@
-var PPG = 3; // posts per page
+var PPG = 7; // posts per page
 
 function blog_strip(txt) {
     // cm: ; lines, =begin...=end blocks
@@ -17,13 +17,35 @@ function blog_parse(txt) {
     return out.reverse();
 }
 
-function blog_post(p) {
+function blog_post(p, idx) {
     return '<div style="border:1px solid silver;padding:1px;margin-bottom:16px;">' +
         '<div style="padding:4px;background:#EEEEEE;">' +
         '<span style="font:bold 11px verdana;float:left;display:inline-block;max-width:73%;text-align:justify;">' + p.t + '</span>' +
         '<span style="font:11px verdana;float:right;text-align:right;">' + p.d + ' ' + p.h + '</span>' +
         '<div style="clear:both;"></div></div>' +
-        '<div style="padding:4px;background:#F9F9F9;font:11px verdana;text-align:justify;">' + p.c + '</div></div>';
+        '<div id="pc-' + idx + '" style="padding:4px;background:#F9F9F9;font:11px verdana;text-align:justify;max-height:90px;overflow:hidden;">' + p.c + '</div>' +
+        '<div id="pe-' + idx + '" style="padding:1px 4px;background:#F9F9F9;border-top:1px solid #DDD;margin-top:2px;font:11px verdana;">' +
+        '[<a id="pa-' + idx + '" href="javascript:blogToggle(' + idx + ')" style="color:#0000EE;">Expand...</a>]</div></div>';
+}
+
+function blogToggle(idx) {
+    var pc = document.getElementById('pc-' + idx);
+    var pa = document.getElementById('pa-' + idx);
+    if (pc && pa) {
+        if (pc.style.maxHeight === 'none') {
+            var pe = document.getElementById('pe-' + idx);
+            var topBefore = pe ? pe.getBoundingClientRect().top : 0;
+            pc.style.maxHeight = '90px';
+            pa.innerHTML = 'Expand...';
+            if (pe) {
+                var topAfter = pe.getBoundingClientRect().top;
+                window.scrollBy(0, topAfter - topBefore);
+            }
+        } else {
+            pc.style.maxHeight = 'none';
+            pa.innerHTML = 'Collapse...';
+        }
+    }
 }
 
 function blog_hash(k) {
@@ -46,7 +68,7 @@ function render_blog() {
     var end = Math.min(start + PPG, BLOG_ITEMS.length);
     
     for (i = start; i < end; i++) {
-        s += blog_post(BLOG_ITEMS[i]);
+        s += blog_post(BLOG_ITEMS[i], i);
     }
     
     tot = Math.max(1, tot);
@@ -71,6 +93,18 @@ function render_blog() {
     var pnav_html = '<div style="text-align:center; padding:0 0 16px 0; font: 700 11px/100% \'Lucida Grande\', \'MS PGothic\', sans-serif;">' + pnav + '</div>';
     
     e.innerHTML = pnav_html + s;
+
+    var st = start, en = end;
+    setTimeout(function() {
+        for (var j = st; j < en; j++) {
+            var pc = document.getElementById('pc-' + j);
+            var pe = document.getElementById('pe-' + j);
+            if (pc && pc.scrollHeight <= pc.clientHeight + 40) {
+                pc.style.maxHeight = 'none';
+                if (pe) pe.style.display = 'none';
+            }
+        }
+    }, 0);
 }
 
 function start_blog() {
