@@ -104,6 +104,8 @@ function render_blog() {
                 if (pe) pe.style.display = 'none';
             }
         }
+        var rss = document.getElementById('rss-btn');
+        if (rss) rss.style.display = 'block';
     }, 0);
 }
 

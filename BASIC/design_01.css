@@ -27,7 +27,8 @@ h1, h2, h3
         font-weight: normal}
 
 
-#bg01  {line-height: 140%;
+#bg01  {position: relative;
+        line-height: 140%;
         margin: 0 auto;
         text-align: left;
         width: 750px;
