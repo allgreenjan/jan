@@ -1,5 +1,7 @@
 ; FORMAT: Name<>Status<>Link<>
 Washizu: Enma no Touhai ch.18<>[FINISHED]<>[ <a href="https://mangadex.org/title/01e6296c-9c0f-4329-8854-036aec11595b/washizu-enma-s-mahjong" target="_blank">Open</a> ]<>
 Washizu: Enma no Touhai ch.19<>[FINISHED]<>[ <a href="https://mangadex.org/title/01e6296c-9c0f-4329-8854-036aec11595b/washizu-enma-s-mahjong" target="_blank">Open</a> ]<>
-Washizu: Enma no Touhai Vol.4<>[Planned]<>[ <a href="https://mangadex.org/title/01e6296c-9c0f-4329-8854-036aec11595b/washizu-enma-s-mahjong" target="_blank">Open</a> ]<>
-Dai Ni Enshutsu-bu Director Za Gama Vol.1<>[Planned]<>[ <a href="https://mangadex.org/title/1201cf13-7a18-4afa-832c-5dd444e3f4b6/director-of-the-second-production-department-the-gama" target="_blank">Open</a> ]<>
+Washizu: Enma no Touhai ch.20<>[FINISHED]<>[ SOON ]<>
+Washizu: Enma no Touhai ch.21-23<>[In Progress]<>[ SOON ]<>
+; Washizu: Enma no Touhai Vol.4<>[Planned]<>[ <a href="https://mangadex.org/title/01e6296c-9c0f-4329-8854-036aec11595b/washizu-enma-s-mahjong" target="_blank">Open</a> ]<>
+; Dai Ni Enshutsu-bu Director Za Gama Vol.1<>[Planned]<>[ <a href="https://mangadex.org/title/1201cf13-7a18-4afa-832c-5dd444e3f4b6/director-of-the-second-production-department-the-gama" target="_blank">Open</a> ]<>
