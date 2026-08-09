@@ -25,7 +25,7 @@ function blog_post(p, idx) {
         '<div style="clear:both;"></div></div>' +
         '<div id="pc-' + idx + '" style="padding:4px;background:#F9F9F9;font:11px verdana;text-align:justify;max-height:90px;overflow:hidden;">' + p.c + '</div>' +
         '<div id="pe-' + idx + '" style="padding:1px 4px;background:#F9F9F9;border-top:1px solid #DDD;margin-top:2px;font:11px verdana;">' +
-        '[<a id="pa-' + idx + '" href="javascript:blogToggle(' + idx + ')" style="color:#0000EE;">Expand...</a>]</div></div>';
+        '[<a id="pa-' + idx + '" href="#" onclick="blogToggle(' + idx + '); return false;" style="color:#0000EE;">Expand...</a>]</div></div>';
 }
 
 function blogToggle(idx) {
