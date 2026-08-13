@@ -17,15 +17,45 @@ function blog_parse(txt) {
     return out.reverse();
 }
 
+function get_post_number(title) {
+    if (!title) return 0;
+    var m = title.match(/^\[(\d+)(?:[.\/].*)?\]/);
+    if (!m) return 0;
+    return parseInt(m[1], 10);
+}
+
 function blog_post(p, idx) {
-    return '<div style="border:1px solid silver;padding:1px;margin-bottom:16px;">' +
+    var postNum = get_post_number(p.t);
+    var allowComments = (postNum >= 21);
+    var postSlug = postNum;
+
+    var expandHtml = '[<a id="pa-' + idx + '" href="javascript:void(0);" onclick="blogToggle(' + idx + '); return false;" style="color:#0000EE;">Expand...</a>]';
+
+    var iconHtml = '';
+    if (allowComments) {
+        iconHtml = '<a id="za-' + idx + '" href="javascript:void(0);" onclick="kome(\'' + postSlug + '\', ' + idx + '); return false;" title="Toggle Comments" style="text-decoration:none;display:inline-flex;align-items:center;">' +
+            '<img src="../cg/balloon-white-left.png" style="width:14px;height:14px;border:none;vertical-align:middle;" alt="Comments"></a>';
+    }
+
+    var html = '<div style="border:1px solid silver;padding:1px;margin-bottom:16px;">' +
         '<div style="padding:4px;background:#EEEEEE;">' +
         '<span style="font:bold 11px verdana;float:left;display:inline-block;max-width:73%;text-align:justify;">' + p.t + '</span>' +
         '<span style="font:11px verdana;float:right;text-align:right;">' + p.d + ' ' + p.h + '</span>' +
         '<div style="clear:both;"></div></div>' +
         '<div id="pc-' + idx + '" style="padding:4px;background:#F9F9F9;font:11px verdana;text-align:justify;max-height:90px;overflow:hidden;">' + p.c + '</div>' +
-        '<div id="pe-' + idx + '" style="padding:1px 4px;background:#F9F9F9;border-top:1px solid #DDD;margin-top:2px;font:11px verdana;">' +
-        '[<a id="pa-' + idx + '" href="#" onclick="blogToggle(' + idx + '); return false;" style="color:#0000EE;">Expand...</a>]</div></div>';
+        '<div id="pe-' + idx + '" style="padding:1px 4px;background:#F9F9F9;border-top:1px solid #DDD;margin-top:2px;font:11px verdana;display:flex;justify-content:space-between;align-items:center;">' +
+        '<span>' + expandHtml + '</span>' +
+        '<span>' + iconHtml + '</span>' +
+        '</div>';
+
+    if (allowComments) {
+        html += '<div id="acc-' + postSlug + '" class="komebox" style="display:none;">' +
+            '<div id="thread-' + postSlug + '" class="container"></div>' +
+            '</div>';
+    }
+
+    html += '</div>';
+    return html;
 }
 
 function blogToggle(idx) {
@@ -98,10 +128,13 @@ function render_blog() {
     setTimeout(function() {
         for (var j = st; j < en; j++) {
             var pc = document.getElementById('pc-' + j);
+            var pa = document.getElementById('pa-' + j);
+            var za = document.getElementById('za-' + j);
             var pe = document.getElementById('pe-' + j);
             if (pc && pc.scrollHeight <= pc.clientHeight + 40) {
                 pc.style.maxHeight = 'none';
-                if (pe) pe.style.display = 'none';
+                if (pa) pa.style.display = 'none';
+                if (!za && pe) pe.style.display = 'none';
             }
         }
         var rss = document.getElementById('rss-btn');
