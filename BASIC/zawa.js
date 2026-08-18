@@ -98,7 +98,8 @@ function FitText(el) {
 
 function chg_color(postSlug, color) {
     localStorage.setItem('ck_color', color);
-    var swatches = document.querySelectorAll('#thread-' + postSlug + ' .swatch');
+    var container = document.getElementById('thread-' + postSlug);
+    var swatches = container ? container.querySelectorAll('.swatch') : [];
     for (var i = 0; i < swatches.length; i++) {
         if (swatches[i].getAttribute('data-color') === color) {
             swatches[i].classList.add('paletteon');

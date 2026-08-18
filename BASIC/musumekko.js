@@ -17,17 +17,16 @@ function blog_parse(txt) {
     return out.reverse();
 }
 
-function get_post_number(title) {
-    if (!title) return 0;
-    var m = title.match(/^\[(\d+)(?:[.\/].*)?\]/);
-    if (!m) return 0;
-    return parseInt(m[1], 10);
+function get_post_slug(title) {
+    if (!title) return '';
+    var m = title.match(/^\[([0-9]+(?:\.[0-9]+)?)/);
+    return m ? m[1] : '';
 }
 
 function blog_post(p, idx) {
-    var postNum = get_post_number(p.t);
+    var postSlug = get_post_slug(p.t);
+    var postNum = parseFloat(postSlug) || 0;
     var allowComments = (postNum >= 21);
-    var postSlug = postNum;
 
     var expandHtml = '[<a id="pa-' + idx + '" href="javascript:void(0);" onclick="blogToggle(' + idx + '); return false;" style="color:#0000EE;">Expand...</a>]';
 
