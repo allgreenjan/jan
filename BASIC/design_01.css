@@ -19,6 +19,19 @@ a.plnk:link, a.plnk:visited
 a.plnk:hover
        {color: #8450c0}
 
+a.blnk:link, a.blnk:visited
+       {color: #0000ee;
+        text-decoration: underline}
+a.blnk:hover
+       {color: #551a8b}
+
+#rd    {display: table;
+        margin: 0 auto 20px auto;
+        position: relative;
+        left: -12px;
+        text-align: left;
+        line-height: 150%}
+
 img    {border: 1px solid #000}
 
 h1, h2, h3
