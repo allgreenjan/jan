@@ -33,7 +33,8 @@ function blog_post(p, idx) {
     var iconHtml = '';
     if (allowComments) {
         iconHtml = '<a id="za-' + idx + '" href="javascript:void(0);" onclick="kome(\'' + postSlug + '\', ' + idx + '); return false;" title="Toggle Comments" style="text-decoration:none;display:inline-flex;align-items:center;">' +
-            '<img src="../cg/balloon-white-left.png" style="width:14px;height:14px;border:none;vertical-align:middle;" alt="Comments"></a>';
+            '<img src="../cg/balloon-white-left.png" style="width:14px;height:14px;border:none;vertical-align:middle;" alt="Comments">' +
+            '<span id="kc-' + postSlug + '" style="font:11px verdana;color:#0000EE;text-decoration:underline;margin-left:3px;"></span></a>';
     }
 
     var html = '<div style="border:1px solid silver;padding:1px;margin-bottom:16px;">' +
@@ -139,6 +140,13 @@ function render_blog() {
         var rss = document.getElementById('rss-btn');
         if (rss) rss.style.display = 'block';
     }, 0);
+
+    if (typeof fetchKomeCount === 'function') {
+        for (var ci = st; ci < en; ci++) {
+            var slug = get_post_slug(BLOG_ITEMS[ci].t);
+            if ((parseFloat(slug) || 0) >= 21) fetchKomeCount(slug);
+        }
+    }
 }
 
 function start_blog() {

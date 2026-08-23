@@ -19,6 +19,75 @@ function kome(postSlug, idx) {
     readk(postSlug);
 }
 
+var komeTimers = {};
+
+function fetchKomeCount(postSlug) {
+    var el = document.getElementById('kc-' + postSlug);
+    if (!el) return;
+
+    if (komeTimers[postSlug]) {
+        clearInterval(komeTimers[postSlug]);
+        delete komeTimers[postSlug];
+    }
+
+    el.innerHTML = '<span>' +
+        '<span>.</span><span style="color:transparent">.</span><span style="color:transparent">.</span>' +
+        '</span> comments';
+
+    var dotWrap = el.firstChild;
+    var step = 0;
+    komeTimers[postSlug] = setInterval(function() {
+        if (!document.getElementById('kc-' + postSlug)) {
+            clearInterval(komeTimers[postSlug]);
+            delete komeTimers[postSlug];
+            return;
+        }
+        step = (step + 1) % 3;
+        for (var d = 0; d < 3; d++) {
+            dotWrap.children[d].style.color = (d <= step) ? '' : 'transparent';
+        }
+    }, 350);
+
+    fetch(CGI_PATH + '?act=read&post=' + encodeURIComponent(postSlug))
+    .then(function(r) { return r.text(); })
+    .then(function(text) {
+        if (komeTimers[postSlug]) {
+            clearInterval(komeTimers[postSlug]);
+            delete komeTimers[postSlug];
+        }
+
+        var lines = text.split('\n');
+        var comments = [];
+        for (var i = 0; i < lines.length; i++) {
+            if (!lines[i].trim()) continue;
+            var cols = lines[i].split('<>');
+            if (cols.length >= 8) {
+                comments.push({
+                    id: cols[0],
+                    parentId: cols[1],
+                    name: cols[2],
+                    color: cols[3],
+                    avatar: cols[4],
+                    content: cols[5],
+                    time: parseInt(cols[6], 10),
+                    admin_flag: cols[7]
+                });
+            }
+        }
+        datl[postSlug] = comments;
+
+        var kcEl = document.getElementById('kc-' + postSlug);
+        if (kcEl) kcEl.innerText = comments.length + ' comments';
+    })
+    .catch(function(err) {
+        if (komeTimers[postSlug]) {
+            clearInterval(komeTimers[postSlug]);
+            delete komeTimers[postSlug];
+        }
+        console.error('Count fetch error:', err);
+    });
+}
+
 function timef(ts) {
     if (!ts) return '';
     var d = new Date(parseInt(ts, 10));
@@ -306,6 +375,8 @@ function readk(postSlug) {
             }
         }
         datl[postSlug] = comments;
+        var kcEl = document.getElementById('kc-' + postSlug);
+        if (kcEl) kcEl.innerText = comments.length + ' comments';
         viewk(postSlug, datl[postSlug]);
     })
     .catch(function(err) {
