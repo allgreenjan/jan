@@ -120,6 +120,7 @@ function bbcode(str) {
         return '<span style="color:' + safe + '">' + txt + '</span>';
     });
     s = s.replace(/\[spoiler\](.*?)\[\/spoiler\]/gi, '<span class="spoiler" onclick="this.classList.toggle(\'spoileron\')">$1</span>');
+    s = s.replace(/&lt;br&gt;/gi, '<br>');
     return s;
 }
 
