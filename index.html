@@ -1,125 +1,109 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
-<html><head>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm/strict.dtd">
+<html lang="en">
+<head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <style>html, body { background-color: #000000 !important; }</style>
-  <meta name="description" content="RYUUIISOU SCANLATIONS">
-  <link rel="stylesheet" href="BASIC/design_01.css">
-  <script>var ROOT_PATH = './';</script>
-  <script src="BASIC/lupin.js?v=3"></script>
-  <script src="BASIC/adnot.js"></script>
-<title>RYUUIISOU SCANLATIONS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RYUUIISOU SCANLATIONS</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="BASIC/design_01.css">
+  <script type="text/javascript" src="BASIC/lupin.js"></script>
 </head>
-<body bgcolor="#000000">
+<body>
 
-<div id="ad-left" style="position: absolute; top: 2px; right: calc(50% + 385px);"></div>
-<div id="ad-right" style="position: absolute; top: 2px; left: calc(50% + 385px);"></div>
+<div class="main">
 
-<div id="bg01">
+  <div class="top">
+    <a href="./">
+      <img width="800" height="80" src="cg/ban.jpg" alt="RYUUIISOU SCANLATIONS" title="RYUUIISOU SCANLATIONS">
+    </a>
+  </div>
 
-<div id="ban">
-<img src="cg/ban.jpg" alt="RYUUIISOU SCANLATIONS">
-<h1><a href="./" accesskey="1">RYUUIISOU SCANLATIONS</a></h1>
+  <div id="nav">
+    <a href="./" class="nb">RELEASES</a><div class="nb-dd">
+      <a href="javascript:void(0);" class="nb">MANGA &#9662;</a>
+      <div class="nb-menu">
+        <a href="https://mangadex.org/title/01e6296c-9c0f-4329-8854-036aec11595b/washizu-enma-s-mahjong" target="_blank">Washizu: Enma no Touhai (MD)</a>
+        <a href="https://cubari.moe/read/gist/cmF3L2FsbGdyZWVuamFuL3dhc2hpenUvbWFpbi9XYXNoaXp1Lmpzb24/" target="_blank">Washizu: Enma no Touhai (Cubari)</a>
+      </div>
+    </div>
+    <span id="nht">[<span style="color: rgb(7, 207, 7);">&#30330;</span>]</span>
+    <span id="njs">This site requires JavaScript.</span>
+  </div>
+
+  <div class="maincont">
+
+    <div id="pinned-post" style="display:none; margin-bottom: 5px;"></div>
+
+    <div class="content">
+      <div class="mainheader" style="margin-bottom: 0;">Welcome to RYUUIISOU SCANLATIONS</div>
+    </div>
+
+    <div class="content">
+      <div class="mainheader">Search</div>
+      <div style="text-align:left;">
+        <form name="search" autocomplete="off" onsubmit="apply_search(); return false;" accept-charset="utf-8">
+          <table style="width:100%;">
+            <tbody>
+              <tr>
+                <td style="width:70px;">Search for:</td>
+                <td><input type="text" id="search-term" name="term" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" style="width:100%;"></td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </div>
+
+    <div class="content" id="content">
+      <div class="header" style="margin-top: 0;">Latest Releases (<span id="rel-count">0</span>)</div>
+      <div id="rel-wrap" style="margin-top: 4px;">
+        <table id="rel">
+          <tbody>
+            <tr><th>Release</th><th width="150">Status</th><th width="90">Link</th></tr>
+          </tbody>
+          <tbody id="rel-body">
+            <tr><td colspan="3" style="color:#999999;">(  ^^ ;)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="content" id="chatbox">
+      <div class="chatboxheader">Latest Messages</div>
+      <div id="cboxdiv" style="text-align: center; line-height: 0; width: 100%; margin-top: 3px;">
+        <div>
+          <iframe frameborder="0" width="100%" height="220" src="https://januaryjan.alwaysdata.net/zbox.php?sec=main" marginheight="2" marginwidth="2" scrolling="auto" allowtransparency="yes" name="cboxmain" style="border:#DBE2ED 1px solid; width: 100%;" id="cboxmain"></iframe>
+        </div>
+        <div>
+          <iframe frameborder="0" width="100%" height="75" src="https://januaryjan.alwaysdata.net/zbox.php?sec=form" marginheight="2" marginwidth="2" scrolling="no" allowtransparency="yes" name="cboxform" style="border:#DBE2ED 1px solid; border-top: 0px; width: 100%;" id="cboxform"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="mainheader">OTHER</div>
+      <div id="foot">
+        <a href="https://www.mangaupdates.com/group/pvdz5sl/ryuuiisou-scanlations" target="_blank">MangaUpdates</a>
+        <span class="sep">&middot;</span>
+        <a href="https://cubari.moe/read/gist/cmF3L2FsbGdyZWVuamFuL3dhc2hpenUvbWFpbi9XYXNoaXp1Lmpzb24/" target="_blank">cubari.moe</a>
+        <span class="sep">&middot;</span>
+        <a href="https://mangadex.org/title/01e6296c-9c0f-4329-8854-036aec11595b/washizu-enma-s-mahjong" target="_blank">MangaDex</a>
+        <span class="sep">&middot;</span>
+        <a href="https://discord.com/invite/XPMNrYJjXY" target="_blank">Discord Chat</a>
+        <span class="sep">&middot;</span>
+        <a href="https://fkmtkrazy.blogspot.com/" target="_blank">FKMTkrazy Blog</a>
+      </div>
+      <div style="text-align: center; margin: 8px 0 4px 0;">
+        <div id="fc2-fallback" style="display:none; font-family: 'MS PGothic', Verdana, sans-serif; line-height: 1.2; text-align: center; font-size: 10px; margin-bottom: 4px;">(?) There's meant to be an FC2 counter in this ugly space～</div>
+        <div style="image-rendering: pixelated; display: inline-block;">
+          <script type="text/javascript" src="//counter1.fc2.com/counter.php?id=41049146&main=1" onerror="document.getElementById('fc2-fallback').style.display='block';"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=41049146&main=1" alt="Counter"></noscript>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 </div>
 
-<div id="nav">
-<a href="./" class="nb">RELEASES</a><a href="gbook/" class="nb">BLOG</a>
-<span id="nht">[<span style="color: rgb(7, 207, 7);">発</span>]</span>
-<span id="njs">This site requires JavaScript.</span>
-</div>
-
-<div style="position: relative; overflow: hidden;">
-<div id="ctr"><div id="t1">
-
-<div id="pm">May my hands
-guide us against these tiles,
-and these
-unsatisfying tides
-
-May my hands
-sweep the gray of the world away,
-until the soul
-is All Green
-
-[二[三[四[六[六[六[八[八[八[発[発[発[二[二]]
-
-and my tiles
-are all right
-
-<span id="sig">-- 1 (one) guy</span></div>
-
-<div id="rd">
-<a href="https://cubari.moe/read/gist/cmF3L2FsbGdyZWVuamFuL3dhc2hpenUvbWFpbi9XYXNoaXp1Lmpzb24/" target="_blank" class="blnk">Read Washizu on Cubari</a><br>
-<a href="https://mangadex.org/title/01e6296c-9c0f-4329-8854-036aec11595b/washizu-enma-s-mahjong" target="_blank" class="blnk">Read Washizu on Mangadex</a>
-</div>
-
-<div id="rel-wrap">
-<table id="rel">
-<tr><th>Release</th><th width="100">Status</th><th width="75">Link</th></tr>
-<tbody id="rel-body">
-<tr><td colspan="3" style="color: #999999;">(  ^^ ;)</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td colspan="3" style="border: none;">&nbsp;</td></tr>
-<tr><td colspan="3" style="text-align:center; padding:6px;">[ 1 ]</td></tr>
-</tbody>
-</table>
-</div>
-
-</div></div>
-
-<div id="sb"><div id="t2">
-
-<h2>:News:</h2>
-<p id="f5" style="visibility: hidden;">&nbsp;</p>
-
-<h2>:Contact:</h2>
-<div id="ct">
-<center>
-<font size="1" color="#666666">Discord Server</font><br>
-<button id="aq" style="margin-top: 2px;" onclick="window.open('https://discord.gg/XPMNrYJjXY', '_blank')">Join ME!</button>
-</center>
-<p><img src="cg/icon_discord.png" alt="Discord"> lainposer</p>
-<p><img src="cg/icon_mail.png" alt="Mail"> liberty@cocaine.ninja</p>
-<br>
-<center>
-<div id="cboxdiv" style="text-align: center; line-height: 0">
-<div><iframe frameborder="0" width="190" height="170" src="https://januaryjan.alwaysdata.net/zbox.php?sec=main" marginheight="2" marginwidth="2" scrolling="auto" allowtransparency="yes" name="cboxmain" style="border:#DBE2ED 1px solid;" id="cboxmain"></iframe></div>
-<div><iframe frameborder="0" width="190" height="75" src="https://januaryjan.alwaysdata.net/zbox.php?sec=form" marginheight="2" marginwidth="2" scrolling="no" allowtransparency="yes" name="cboxform" style="border:#DBE2ED 1px solid;border-top:0px" id="cboxform"></iframe></div>
-</div>
-</center>
-<center>
-<div id="fc2-fallback" style="display:none; font-family: 'MS PGothic', Verdana, sans-serif; line-height: 1.2; max-width: 150px; margin-right: 4px; text-align: center; font-size: 10px;">(?) There's meant to be an FC2 counter in this ugly space～</div>
-<div style="zoom: 2; transform: scaleX(0.75); transform-origin: center; image-rendering: pixelated; margin-top: 5px;">
-<!-- FC2 Counter  Starts here -->
-<script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=41049146&main=1" onerror="document.getElementById('fc2-fallback').style.display='block';"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=41049146&main=1" /></noscript>
-<!-- FC2 Counter  Ends here -->
-</div>
-</center>
-</div>
-</div></div>
-<div id="rss-btn" style="position: absolute; bottom: 15px; right: 0; width: 233px; text-align: right; box-sizing: border-box; padding-right: 15px;">
-  <a href="gbook/rss.xml"><img src="cg/rss.png" alt="RSS" style="width: 15%;"></a>
-</div>
-</div>
-</div>
-
-</body></html>
+</body>
+</html>
