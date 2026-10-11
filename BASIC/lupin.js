@@ -334,7 +334,7 @@ function fetch_pinned_post() {
     }
     xhr.onload = on_ready;
     xhr.onreadystatechange = on_ready;
-    xhr.open('GET', (typeof ROOT_PATH !== 'undefined' ? ROOT_PATH : '') + 'PIN.TXT?t=' + Date.now(), true);
+    xhr.open('GET', (typeof ROOT_PATH !== 'undefined' ? ROOT_PATH : '') + 'PIN.TXT?v=' + Date.now(), true);
     xhr.send();
 }
 
