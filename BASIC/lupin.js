@@ -299,20 +299,32 @@ function fetch_pinned_post() {
                 return;
             }
             var parts = strip_comments(raw_txt).split('<>');
-            if (parts.length < 4) {
+            var posts = [];
+            for (var i = 0; i + 3 < parts.length; i += 4) {
+                var p_title = parts[i].trim();
+                var p_date = parts[i + 1].trim();
+                var p_time = parts[i + 2].trim();
+                var p_body = parts[i + 3].trim();
+                if (p_title.length > 0) {
+                    posts.push({
+                        title: p_title,
+                        date: p_date,
+                        time: p_time,
+                        body: p_body
+                    });
+                }
+            }
+            if (posts.length === 0) {
                 return;
             }
-            var post_title = parts[0].trim();
-            var post_date = parts[1].trim();
-            var post_time = parts[2].trim();
-            var post_body = parts[3].trim();
-            var formatted_dt = format_doki_date(post_date, post_time);
+            var latest_post = posts[posts.length - 1];
+            var formatted_dt = format_doki_date(latest_post.date, latest_post.time);
             var post_html = '<div class="post-pinned post sticky hentry">\n';
             post_html += '<div class="post-headline">\n';
-            post_html += '<h2><a href="javascript:void(0)" rel="bookmark" title="' + post_title + '">' + post_title + '</a></h2>\n';
+            post_html += '<h2><a href="javascript:void(0)" rel="bookmark" title="' + latest_post.title + '">' + latest_post.title + '</a></h2>\n';
             post_html += '</div>\n';
             post_html += '<div class="post-bodycopy">\n';
-            post_html += post_body + '\n';
+            post_html += latest_post.body + '\n';
             post_html += '</div>\n';
             post_html += '<div class="post-footer">' + formatted_dt + ' | Posted by ' + author_name + '</div>\n';
             post_html += '</div>\n';
@@ -327,31 +339,32 @@ function fetch_pinned_post() {
 }
 
 function start_news() {
-    var e = document.getElementById('f5');
-    if (!e) {
+    var el = document.getElementById('f5');
+    if (!el) {
         return;
     }
-    var x = new XMLHttpRequest();
+
+    var xhr = new XMLHttpRequest();
     var loaded = false;
+
     function handle() {
         if (loaded) {
             return;
         }
-        if (x.readyState === 4 && (x.status === 200 || x.status === 304 || x.status === 0)) {
+
+        if (xhr.readyState === 4 && (xhr.status === 200 || xhr.status === 304 || xhr.status === 0)) {
             loaded = true;
-            e.innerHTML = x.responseText
-                .trim()
-                .split(/\n+/)
-                .slice(-5)
-                .reverse()
-                .join('<br>');
-            e.style.visibility = 'visible';
+            var lines = xhr.responseText.trim().split(/\r?\n+/);
+            var news_items = lines.slice(-5).reverse();
+            el.innerHTML = news_items.join('<br>');
+            el.style.visibility = 'visible';
         }
     }
-    x.onload = handle;
-    x.onreadystatechange = handle;
-    x.open('GET', (typeof ROOT_PATH !== 'undefined' ? ROOT_PATH : '') + 'FEED.txt', true);
-    x.send();
+
+    xhr.onload = handle;
+    xhr.onreadystatechange = handle;
+    xhr.open('GET', (typeof ROOT_PATH !== 'undefined' ? ROOT_PATH : '') + 'FEED.txt', true);
+    xhr.send();
 }
 
 document.addEventListener('DOMContentLoaded', function () {

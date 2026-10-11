@@ -149,13 +149,128 @@ function render_blog() {
     }
 }
 
+var cal_year = 2026;
+var cal_month = 10;
+var min_cal_year = 2026;
+var min_cal_month = 6;
+var max_cal_year = 2026;
+var max_cal_month = 10;
+
+function change_cal_month(delta) {
+    var ny = cal_year;
+    var nm = cal_month + delta;
+    if (nm < 1) {
+        nm = 12;
+        ny -= 1;
+    } else if (nm > 12) {
+        nm = 1;
+        ny += 1;
+    }
+    var val = ny * 12 + nm;
+    var min_val = min_cal_year * 12 + min_cal_month;
+    var max_val = max_cal_year * 12 + max_cal_month;
+    if (val < min_val || val > max_val) {
+        return;
+    }
+    cal_year = ny;
+    cal_month = nm;
+    render_calendar(cal_year, cal_month);
+}
+
+function render_calendar(yr, mo) {
+    var el = document.getElementById('cal-box');
+    if (!el) return;
+
+    var days_in_mo = new Date(yr, mo, 0).getDate();
+    var first_day = new Date(yr, mo - 1, 1).getDay();
+
+    var post_days = {};
+    for (var i = 0; i < BLOG_ITEMS.length; i++) {
+        var dp = (BLOG_ITEMS[i].d || '').split('-');
+        if (dp.length === 3) {
+            var py = parseInt(dp[0], 10);
+            var pm = parseInt(dp[1], 10);
+            var pd = parseInt(dp[2], 10);
+            if (py === yr && pm === mo && !isNaN(pd)) {
+                post_days[pd] = true;
+            }
+        }
+    }
+
+    var val = yr * 12 + mo;
+    var min_val = min_cal_year * 12 + min_cal_month;
+    var max_val = max_cal_year * 12 + max_cal_month;
+    var prev_btn = val > min_val ? '<a href="javascript:void(0);" onclick="change_cal_month(-1); return false;" class="cal-nav">&laquo;</a>' : '<span class="cal-dim">&laquo;</span>';
+    var next_btn = val < max_val ? '<a href="javascript:void(0);" onclick="change_cal_month(1); return false;" class="cal-nav">&raquo;</a>' : '<span class="cal-dim">&raquo;</span>';
+
+    var mo_str = mo < 10 ? '0' + mo : '' + mo;
+    var html = '<table class="cal-table">\n';
+    html += '<caption>' + prev_btn + ' ' + yr + '/' + mo_str + ' ' + next_btn + '</caption>\n';
+    html += '<thead><tr><th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th></tr></thead>\n<tbody><tr>';
+
+    var col = 0;
+    for (var b = 0; b < first_day; b++) {
+        html += '<td>&nbsp;</td>';
+        col++;
+    }
+
+    for (var d = 1; d <= days_in_mo; d++) {
+        if (col === 7) {
+            html += '</tr>\n<tr>';
+            col = 0;
+        }
+
+        if (post_days[d]) {
+            html += '<td><span class="cal-post">' + d + '</span></td>';
+        } else {
+            html += '<td>' + d + '</td>';
+        }
+        col++;
+    }
+
+    while (col < 7 && col > 0) {
+        html += '<td>&nbsp;</td>';
+        col++;
+    }
+    html += '</tr></tbody></table>';
+
+    el.innerHTML = html;
+}
+
 function start_blog() {
     var e = document.getElementById("bk"), x;
     if (!e) return;
     x = new XMLHttpRequest();
     x.onload = function () {
         BLOG_ITEMS = blog_parse(this.responseText);
+        if (BLOG_ITEMS.length > 0) {
+            var min_v = 999999;
+            var max_v = 0;
+            for (var bi = 0; bi < BLOG_ITEMS.length; bi++) {
+                var dp = (BLOG_ITEMS[bi].d || '').split('-');
+                if (dp.length >= 2) {
+                    var y = parseInt(dp[0], 10);
+                    var m = parseInt(dp[1], 10);
+                    if (!isNaN(y) && !isNaN(m)) {
+                        var v = y * 12 + m;
+                        if (v < min_v) {
+                            min_v = v;
+                            min_cal_year = y;
+                            min_cal_month = m;
+                        }
+                        if (v > max_v) {
+                            max_v = v;
+                            max_cal_year = y;
+                            max_cal_month = m;
+                        }
+                    }
+                }
+            }
+            cal_year = max_cal_year;
+            cal_month = max_cal_month;
+        }
         render_blog();
+        render_calendar(cal_year, cal_month);
     };
     x.open('GET', 'POST.TXT?t=' + Date.now(), true);
     x.send();

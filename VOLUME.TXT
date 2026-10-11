@@ -1,5 +1,5 @@
 w3<>Washizu: Enma no Touhai Vol.3<>cg/gbook/3.jpg<>Chapters 18-19
 w4<>Washizu: Enma no Touhai Vol.4<>cg/gbook/4.jpg<>Chapters 20-25
 w5<>Washizu: Enma no Touhai Vol.5<>cg/gbook/5.jpg<>Chapters 26-...
-gama-v1<>Dai Ni Enshutsu-bu Director Za Gama Vol.1<>cg/gbook/GAMA1.jpg<>.
-gama-v2<>Dai Ni Enshutsu-bu Director Za Gama Vol.2<>cg/gbook/GAMA2.jpg<>.
+g1<>Dai Ni Enshutsu-bu Director Za Gama Vol.1<>cg/gbook/g1.jpg<>.
+g2<>Dai Ni Enshutsu-bu Director Za Gama Vol.2<>cg/gbook/GAMA2.jpg<>.
