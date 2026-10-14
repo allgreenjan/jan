@@ -1976,14 +1976,13 @@ I have lots of other things I want to scanlate, but it's best to do one at a tim
 <b><i>RYUUIISOU SCANLATIONS</i></b>
 <small>translated/cleaned/typeset by 1 (one) guy</small>
 <>
-=begin
-[33] Washizu Ch.30<>2026-10-11<>11:30<>
+[32] Washizu Ch.30<>2026-10-13<>10:17<>
 Because I was overhauling the sites visuals I didn't make a release post for last chapter. Whoops!
 
-One step closer to finishing this arc soon. In fact, I'm sure knowing that one can wonder: What can we even expect from Washizu from now on?
+One step closer to finishing this arc soon. I'm sure knowing that one can wonder: What can we even expect from Washizu from now on?
 
 <center><img src="../cg/gbook/kawazu.jpg" style="width:99%"></center>
-I've decided to make a ranked list of the arcs from after I began translating. Might give a nice idea on what to expect.
+I felt like making a ranked list of the arcs from after I began translating. Might give a nice idea on what to expect.
 
 <b>1)</b> Pirate Tide 1-9
 <b>2)</b> Reimei (Daybreak) Experience 1-8 (no TL)
@@ -1997,9 +1996,8 @@ I've decided to make a ranked list of the arcs from after I began translating. M
 <b>10)</b> Seal (no TL)
 
 They're all important story-wise though, even most of the one-offs.
-(We get stronger one-off chapters in the sequel, but even then I think "The Creator," with the Washizu Mahjong origin story, was the best one.)
 
-Should surprise you even more to know that the final arc of the sequel completly blows any other arc out of the water...!
+Should surprise you even more to know that the final arc of the sequel completely blows any other arc out of the water...!
 
 By the time I have my year-end break from college the release pace should pick up a bit, right as the 8 chapter arc starts. If we're lucky
 
@@ -2009,4 +2007,3 @@ Thanks for the bi-weekly (for now) Washizu love, everyone! Look forward to next 
 <b><i>RYUUIISOU SCANLATIONS</i></b>
 <small>translated/cleaned/typeset by 1 (one) guy</small>
 <>
-=end
